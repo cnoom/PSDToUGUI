@@ -314,7 +314,7 @@ namespace CNoom.PSDToUGUI
         /// <summary>
         ///     应用图层样式（投影 → Shadow，描边 → Outline）
         /// </summary>
-        private void ApplyStyles(GameObject go, PSDLayer.RowStyles styles)
+        private void ApplyStyles(GameObject go, PSDLayer.LayerStyles styles)
         {
             if (styles == null) return;
 

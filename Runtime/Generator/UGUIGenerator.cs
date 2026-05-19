@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace CNoom.PSDToUGUI
 {
@@ -239,7 +240,7 @@ namespace CNoom.PSDToUGUI
             text.color = ParseColor(textInfo.color);
             text.alignment = GetTextAnchor(textInfo.alignment);
             text.raycastTarget = false;
-            text.horizontalOverflow = UnityEngine.UI.HorizontalWrapMode.Overflow;
+            text.horizontalOverflow = HorizontalWrapMode.Overflow;
 
             if (textInfo.bold && textInfo.italic)
             {

@@ -1,0 +1,25 @@
+{
+    "name": "com.cnoom.psdtougui",
+    "displayName": "PSD To UGUI",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "Photoshop 文件转 Unity UGUI 解决方案。支持 PS 图层导出为 JSON+PNG，自动生成 UGUI 预制体，使用 TextMeshPro 渲染文本，支持相对锚点适配。",
+    "keywords": [
+        "psd",
+        "ugui",
+        "photoshop",
+        "ui",
+        "importer"
+    ],
+    "author": {
+        "name": "CNoom",
+        "url": "https://github.com/cnoom"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:cnoom/PSDToUGUI.git"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "samples": []
+}
